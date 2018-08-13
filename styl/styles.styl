@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'BankirRetro';
+    src: url('../fonts/BankirRetro.eot');
+    src: url('../fonts/BankirRetro.eot') format('embedded-opentype'),
+         url('../fonts/BankirRetro.woff2') format('woff2'),
+         url('../fonts/BankirRetro.woff') format('woff'),
+         url('../fonts/BankirRetro.ttf') format('truetype'),
+         url('../fonts/BankirRetro.svg#BankirRetro') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OpenSansBold.eot');
+    src: url('../fonts/OpenSansBold.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansBold.woff2') format('woff2'),
+         url('../fonts/OpenSansBold.woff') format('woff'),
+         url('../fonts/OpenSansBold.ttf') format('truetype'),
+         url('../fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../fonts/OpenSansLight.eot');
+    src: url('../fonts/OpenSansLight.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansLight.woff2') format('woff2'),
+         url('../fonts/OpenSansLight.woff') format('woff'),
+         url('../fonts/OpenSansLight.ttf') format('truetype'),
+         url('../fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSansRegular.eot');
+    src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansRegular.woff2') format('woff2'),
+         url('../fonts/OpenSansRegular.woff') format('woff'),
+         url('../fonts/OpenSansRegular.ttf') format('truetype'),
+         url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('../fonts/OpenSansSemibold.eot');
+    src: url('../fonts/OpenSansSemibold.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansSemibold.woff2') format('woff2'),
+         url('../fonts/OpenSansSemibold.woff') format('woff'),
+         url('../fonts/OpenSansSemibold.ttf') format('truetype'),
+         url('../fonts/OpenSansSemibold.svg#OpenSansSemibold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemiboldItalic';
+    src: url('../fonts/OpenSansSemiboldItalic.eot');
+    src: url('../fonts/OpenSansSemiboldItalic.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansSemiboldItalic.woff2') format('woff2'),
+         url('../fonts/OpenSansSemiboldItalic.woff') format('woff'),
+         url('../fonts/OpenSansSemiboldItalic.ttf') format('truetype'),
+         url('../fonts/OpenSansSemiboldItalic.svg#OpenSansSemiboldItalic') format('svg');
+}
+
+*
+	margin 0
+	padding 0
+	outline none
+body
+	font-family: 'OpenSansLight', sans-serif;
+	font-size: 16px
+a
+	color: #fefefe
+	&:focus
+		outline: 0
+	&:hover
+		text-decoration none
+button
+	border none
+.video_wrapper
+	margin 0 auto
+	position relative
+	&:before
+		content ''
+		height 0
+		padding-top 56.25%
+		display block
+	&:after
+		content: ''
+		display block
+		position: absolute
+		top: 0
+		left 0
+		right 0
+		width: 100%
+		height 70px
+	img,
+	iframe
+		position absolute
+		width 100%
+		height 100%
+		display block
+		background-color #fff
+		border-radius 3px
+		border: 0
+		top 0
+		left 0
+		right 0
+		bottom 0
+		cursor pointer
+.button
+	display block
+	border: 1px solid rgb(132, 117, 103);
+	border-radius: 5px;
+	background-image: linear-gradient( 0deg, rgb(181,139,11) 0%, rgb(215,173,42) 64%, rgb(249,206,73) 100%);
+	box-shadow: 0px 0px 5px 0px rgba(#ffffbe, 0.38) inset, 0px 5px 11px 0px rgba(0, 0, 0, 0.15);
+	width: 320px;
+	height: 63px;
+	line-height: 63px;
+	margin 0 auto
+	font-size: 24px;
+	font-family: "BankirRetro", sans-serif;
+	color: rgb(27, 28, 43);
+	text-align: center
+	cursor pointer
+	&:focus
+		background-image: linear-gradient( 0deg, rgb(181,139,11) 0%, rgb(215,173,42) 64%, rgb(249,206,73) 100%);
+		color: rgb(27, 28, 43);
+		text-decoration: none
+	&:hover
+		background-image: linear-gradient( 180deg, rgb(181,139,11) 0%, rgb(215,173,42) 64%, rgb(249,206,73) 100%);
+		color: rgb(27, 28, 43);
+h1,h2,h3,h4,h5,h6
+	font-family: "BankirRetro", sans-serif;
+@import "parts/main"
+@import "parts/mail"
+@import "parts/for"
+@import "parts/plan"
+@import "parts/author"
+@import "parts/revs"
+@import "parts/last"
+@import "parts/footer"
+@import "medias"
