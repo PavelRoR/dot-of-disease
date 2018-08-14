@@ -35,7 +35,7 @@ $(document).ready(function () {
             message.slideUp(500);
         });
         check.click(function () {
-            check.next().css("color", "#fff");
+            check.next().css("color", "#000");
             message.slideUp(500);
         });
     });

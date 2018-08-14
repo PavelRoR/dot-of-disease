@@ -1,0 +1,203 @@
+#footer
+	padding: 46px 0 44px
+	text-align: center
+	background-color: #161721
+	h5
+		font-size: 24px;
+		color: #b33c2e
+		line-height: 1.042;
+		margin 0
+		font-family: 'OpenSansSemibold', sans-serif;
+		font-weight: normal
+	p
+	#conditions
+		font-size: 14px;
+		color: rgba(254, 254, 254, .3);
+		line-height: 1.786;
+	#conditions
+		margin 15px 0 0
+		text-decoration: underline
+.soc_buttons
+	width 100%
+	margin: 0 auto
+	a
+		display: inline-block
+		margin: 20px 18px
+		position relative
+		z-index: 1
+		.fa
+			width: 30px;
+			height: 30px;
+			background-image linear-gradient(to bottom, #f9ce49 100%, #b58b0b 0%)
+			color #060404
+			font-size 20px
+			line-height 30px
+			border-radius 50%
+			border 1px solid #b58805
+			box-shadow 0 0 11px 5px rgba(#000, .15), 0 0 5px rgba(#ffffbe, .38) inset
+			&:hover
+				background-color #d7b005
+				color: #060404
+#myPolitics
+	.modal-title
+		text-align: center
+		font-size: 22px
+		font-family: "OpenSansSemibold", sans-serif
+		small
+			display block
+			margin-top: 0
+	.modal-body
+		p
+			font-size: 16px;
+			text-align: left
+			margin-bottom: 20px
+.modal-header
+	position relative
+button.close
+	position: absolute
+	top 20px
+	right 20px
+	border-radius: 50%
+	height 30px
+	width: 30px
+	line-height: 30px
+	font-size: 18px
+	padding 0
+	margin 0
+	z-index 999
+	background-color #fff
+	color #000
+	opacity 1
+#myModalForm
+	.modal-content
+		background-color #B8AC82
+#modalForm
+	text-align: center
+	h4
+		font-size: 24px;
+		color: rgba(26,20,13,0.902);
+		margin: 20px 0
+		letter-spacing: -0.5px;
+	.form_bonus
+		font-size: 18px;
+		font-family: "OpenSansLightItalic", sans-serif;
+		color: #301b0c;
+	input
+		margin: 20px auto
+.form_newsletter
+	input
+		width: 260px
+		height: 56px
+		line-height: 56px
+		border: none
+		margin: 0 auto
+		padding-left:  20px
+		background-color: #F3EEE0
+		box-shadow: 0 0 5px 3px rgba(0,0,0,.15) inset
+		display: block
+		margin: 0 auto
+
+.alert_message {
+	display: none;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 10px;
+	font-family: 'OpenSansRegular', sans-serif;
+	color: red;
+}
+.checking {
+	display: table;
+	max-width: 90%;
+	margin: 20px auto 0;
+	text-align: left;
+}
+
+.checking .check_label {
+	font-size: 11px;
+	font-family: "OpenSansRegular", sans-serif;
+	color: #000
+	line-height: 22px;
+	cursor: pointer;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 0 0 30px;
+	text-align: left
+}
+
+.checking .check_label a {
+	color: #000
+	text-decoration: underline
+}
+
+.checking .check_label:before {
+	content: '';
+	border-radius: 2px;
+	background-color: #aaa;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 22px;
+	height: 22px;
+
+}
+
+.checking .check_label:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: -15px;
+	width: 18px;
+	height: 18px;
+	left: 3px;
+	top: -30px;
+	width: 16px;
+	height: 26px;
+	background-color: transparent;
+	opacity: 0;
+	border-bottom: 3px solid red;
+	border-right: 3px solid red;
+	-webkit-transform: rotate(41deg);
+	-ms-transform: rotate(41deg);
+	transform: rotate(41deg);
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+}
+
+.check {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	width: 0;
+	height 0;
+	border: 0;
+	left -99999px;
+}
+
+.check:checked + label:before {
+	border: 1px solid #c4c4c4;
+	background-color: #fff;
+
+}
+
+.check:checked + label:after {
+	opacity: 1;
+	top: -10px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+@-webkit-keyframes autofill {
+	to {
+		color: rgba(29, 28, 24, 0.702);
+		background: #f7f8fa;
+	}
+}
+
+input:-webkit-autofill {
+	-webkit-animation-name: autofill;
+	-webkit-animation-fill-mode: both;
+}
