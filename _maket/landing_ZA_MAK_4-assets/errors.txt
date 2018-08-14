@@ -1,1 +1,1 @@
-[Mon Aug 13 2018 22:19:54 GMT+0500 (RTZ 4 (зима))] layer "info@mastervision.su ": Unsupported extension: su
+[Tue Aug 14 2018 17:07:35 GMT+0500 (RTZ 4 (зима))] layer "info@mastervision.su ": Unsupported extension: su
