@@ -79,7 +79,7 @@ $(document).ready(function () {
             0: {
                 items: 1
             },
-            1000: {
+            767: {
                 items: 2
             }
         }
